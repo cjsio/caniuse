@@ -31,6 +31,9 @@
     },
     {
       "description":"getUserMedia() is not supported by default in Android webviews, such as Facebook or Snapchat in-app browsers."
+    },
+    {
+      "description":"On supported iOS versions (in Safari), after calling getUserMedia(), attempting to play audio or video via an <audio> or <video> element forces audio playback through the device's internal speaker located on the bottom of the device instead of through the device's front-facing loudspeaker."
     }
   ],
   "categories":[
